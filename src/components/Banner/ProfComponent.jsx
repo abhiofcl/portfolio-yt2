@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-
+import logo from "./bgprofile.png"
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -13,12 +13,13 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Abhishek V</h1>
+          <h3>ECE Undergraduate and React/Flutter dev</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+            I am currently pursuing Btech ECE in NSS College of Engineering.
+            Apart from academic studies, I also know React and Flutter.
+            I am also a Cybersecurity Enthusiast with basic experience in Red teaming.
+
           </p>
           <button>Let's talk</button>
           <Social>
@@ -46,7 +47,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src={logo}
             alt="profile"
           />
         </Profile>
