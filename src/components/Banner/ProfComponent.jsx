@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import logo from "./bgprofile.png"
 const ProfComponent = () => {
@@ -15,33 +12,12 @@ const ProfComponent = () => {
           </h4>
           <h1 className="green">Abhishek V</h1>
           <h3>ECE Undergraduate and React/Flutter dev</h3>
-          <p>
-            I am currently pursuing Btech ECE in NSS College of Engineering.
-            Apart from academic studies, I also know React and Flutter.
-            I am also a Cybersecurity Enthusiast with basic experience in Red teaming.
-
+          <p style={{lineHeight:"150%"}}>
+            
+I am currently pursuing a B.Tech in <strong>Electronics and Communication Engineering (ECE)</strong>  at NSS College of Engineering. Alongside my academic studies, I have developed proficiency in <strong>React and Flutter</strong> , enabling me to create intuitive user interfaces and develop interactive applications.
+ I also have a keen interest in <strong>Cybersecurity</strong> , specifically <strong> Red teaming</strong>, and I actively engage in personal projects and contribute to open-source initiatives. I am seeking opportunities to apply my skills and make a positive impact in a professional setting, leveraging my ECE education, React and Flutter expertise, and cybersecurity knowledge.
           </p>
-          <button>Let's talk</button>
-          <Social>
-            <p>Check out my</p>
-            <div className="social-icons">
-              <span>
-                <a href="/">
-                  <AiOutlineInstagram />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <GiEarthAmerica />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <FaLinkedinIn />
-                </a>
-              </span>
-            </div>
-          </Social>
+          {/* <button>Let's talk</button> */}
         </Texts>
       </Slide>
       <Slide direction="right">

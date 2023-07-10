@@ -21,26 +21,10 @@ const Footer = () => {
         <Slide direction="left" delay={1}>
           <h1>Portfolio</h1>
         </Slide>
-        <div className="address">
-          <Slide direction="left">
-            <h1>Address:</h1>
-          </Slide>
-          <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
-          </Slide>
-        </div>
         <div className="links">
           <Slide direction="left">
             <h1>Contact me directly:</h1>
           </Slide>
-          <div>
-            <span>
-              <FiPhoneCall />
-            </span>
-            <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
-            </Slide>
-          </div>
           <div>
             <Slide direction="left">
               <span>
@@ -48,7 +32,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:abhishekvalasseri@gmail.com">abhishekvalasseri@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -59,29 +43,15 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/abhiofcl">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/abhishek-valasseri/">
                   <AiFillLinkedin />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsFacebook />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsSlack />
                 </a>
               </span>
             </Zoom>
