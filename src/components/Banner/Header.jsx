@@ -6,9 +6,9 @@ const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
-        <Logo>
+        {/* <Logo>
             <HoverName />
-        </Logo>
+        </Logo> */}
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
             <span><a href="#service">Services</a></span>
