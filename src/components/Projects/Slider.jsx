@@ -6,25 +6,25 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "/assets/projects/netflix.png",
+        disc : "A simple Netflix Clone made using React and TMDB REST API.",
+        publiclink:"https://simple-netflix-clone-app.netlify.app/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "/assets/projects/clarifai.png",
+        disc : "An AI face recognition app made using React and Clarifai API",
+        publiclink:"https://simple-face-recognition-webapp.netlify.app/"
+      },
+    {
+        img : "/assets/projects/meme.png",
+        disc : "A meme generator made using React and Reddit meme REST API",
+        publiclink:"#projects"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+      img : "/assets/projects/app.png",
+      disc : "A diary app made with Flutter,Sqflite and Provider with Speech to Text Capabilities and local database",
+      publiclink:"#projects"
+  },
 ];
 
 var settings = {
