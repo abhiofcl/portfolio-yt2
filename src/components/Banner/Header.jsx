@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 
-import HoverName from './myname';
+
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
-        {/* <Logo>
-            <HoverName />
-        </Logo> */}
+        
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
+            <span><a href="#skills">Skills</a></span>
             <span><a href="#project">Projects</a></span>
             
             <span><a href="#footer">Portfolio</a></span>
@@ -80,19 +78,19 @@ const Container = styled.div`
         }
     }
 `
-const Logo = styled.div`
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    span{
-        font-size: 1.8rem;
-    }
+// const Logo = styled.div`
+//     display: flex;
+//     align-items: center;
+//     gap: 0.5rem;
+//     span{
+//         font-size: 1.8rem;
+//     }
 
-    h1{
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
-`
+//     h1{
+//         font-weight: 600;
+//         font-size: 1.2rem;
+//     }
+// `
 const Nav = styled.div`
     @media(max-width:640px){
         position: fixed;
