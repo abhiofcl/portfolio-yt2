@@ -11,7 +11,7 @@ function App() {
   return (
     <Container>
       <Banner>
-        <WorkInProgressAlert />
+        {/* <WorkInProgressAlert /> */}
         <Header />
         <ProfComponent />
       </Banner>
@@ -19,7 +19,7 @@ function App() {
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
+      {/* <Clients /> */}
       <LightColor>
         <Footer />
       </LightColor>
